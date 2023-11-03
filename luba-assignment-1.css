@@ -1,0 +1,104 @@
+body {
+    background-color: #4912f6;
+    margin: 0px;
+}
+
+.first_part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#b {
+    text-align: right;
+    margin-right: 10px;
+    color: #cdcdcd;
+    text-decoration: none;
+}
+
+input[type=button] {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: orange;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #cdcdcd;
+}
+
+.second_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#second_left {
+    flex-basis: 800px;
+    flex-grow: 1;
+    margin-left: 40 px;
+}
+
+#d {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #cdcdcd;
+}
+
+#e {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+#f {
+    color: #cdcdcd;
+}
+
+#g {
+    margin-top: 40px;
+}
+
+.third_part {
+    color: white;
+    text-align: center;
+    margin: 100px 0px 100px 0px;
+}
+
+.fourth_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin: 0px 100px 0px 100px;
+    align-content: flex-start;
+
+}
+
+.paragraph1 {
+    margin: 0px;
+}
+
+.paragraph2 {
+    margin: 0px
+}
+
+.paragraph3 {
+    margin: 0px
+}
+
+.paragraph4 {
+    margin: 0px;
+}
+
+.paragraph5 {
+    margin: 0px;
+}
+
+#link {
+    margin-top: 20px;
+    display: block;
+}
