@@ -20,7 +20,7 @@ input[type=button] {
     padding: 10px 15px;
     border-radius: 25px;
     border: 0px;
-    background-color: orange;
+    background-image: linear-gradient(to left, #eb8028 10%, #e29d2e 90%);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -34,6 +34,7 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 150px 0px 0px 50px;
 }
 
 #second_left {
@@ -45,21 +46,28 @@ a:visited {
 #d {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #cdcdcd;
+    margin-bottom: 5px;
+    font-size: 30px;
+
 }
 
 #e {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
+    margin-top: 10px;
 }
 
 #f {
     color: #cdcdcd;
+    font-size: large;
+    margin: 0px;
 }
 
 #g {
-    margin-top: 40px;
+    margin-top: 20px;
+    align-self: middle;
 }
 
 .third_part {
@@ -87,7 +95,7 @@ a:visited {
 }
 
 .paragraph3 {
-    margin: 0px
+    margin-top: 100px;
 }
 
 .paragraph4 {
@@ -95,6 +103,10 @@ a:visited {
 }
 
 .paragraph5 {
+    margin: 0px;
+}
+
+.paragraph6 {
     margin: 0px;
 }
 
